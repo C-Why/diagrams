@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T06:21:18.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="dA3sUWiGKsKuo0i2HIFE" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T06:23:22.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="5oro69jaVKzlrPkSRJxa" version="22.1.11" type="github">
   <diagram name="第 1 页" id="7eMSPlvP4oVSN_WGFJ_u">
     <mxGraphModel dx="589" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,6 +13,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I6KHFlvKt-9jvYjdkDqK-4" target="I6KHFlvKt-9jvYjdkDqK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I6KHFlvKt-9jvYjdkDqK-4" target="I6KHFlvKt-9jvYjdkDqK-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-4" value="Prometheus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
@@ -37,7 +40,7 @@
           <mxGeometry x="155" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-10" value="&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;目标&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="175" y="465" width="60" height="30" as="geometry" />
+          <mxGeometry x="181" y="476" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-14" value="数据可视化和导出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="515" y="350" width="70" height="30" as="geometry" />
@@ -66,7 +69,7 @@
           <mxGeometry x="490" y="471" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-23" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="155" y="380" width="82" height="36" as="geometry" />
+          <mxGeometry x="177" y="400" width="82" height="36" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-20" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-23">
           <mxGeometry width="75" height="30" as="geometry" />
@@ -78,7 +81,7 @@
           <mxGeometry x="7" y="6" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-24" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="150" y="180" width="82" height="36" as="geometry" />
+          <mxGeometry x="170" y="175" width="82" height="36" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-25" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
           <mxGeometry width="75" height="30" as="geometry" />
@@ -86,7 +89,7 @@
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-26" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
           <mxGeometry x="3" y="3" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6KHFlvKt-9jvYjdkDqK-27" value="&lt;div&gt;Jobs/&lt;/div&gt;&lt;div&gt;exporters&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=1" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-27" value="短暂的jobs" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=1" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
           <mxGeometry x="7" y="6" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-33" value="&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;告警&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
@@ -100,6 +103,9 @@
         </mxCell>
         <mxCell id="I6KHFlvKt-9jvYjdkDqK-36" value="Webhook" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="261" width="80" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I6KHFlvKt-9jvYjdkDqK-27" target="I6KHFlvKt-9jvYjdkDqK-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
