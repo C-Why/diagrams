@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T03:29:45.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.11" etag="7d5j2OeMd3S0ADA3vfMb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T06:11:51.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="vmpNdVkJQYBCuizebuJj" version="22.1.11" type="github">
   <diagram name="第 1 页" id="7eMSPlvP4oVSN_WGFJ_u">
-    <mxGraphModel>
+    <mxGraphModel dx="589" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I6KHFlvKt-9jvYjdkDqK-4" target="I6KHFlvKt-9jvYjdkDqK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-12" value="推送告警" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I6KHFlvKt-9jvYjdkDqK-11">
+          <mxGeometry x="-0.07" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I6KHFlvKt-9jvYjdkDqK-4" target="I6KHFlvKt-9jvYjdkDqK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-4" value="Prometheus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-5" value="服务发现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-6" value="Alertmanager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-8" value="Pushgateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-10" value="&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;目标&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="175" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-14" value="数据可视化和导出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-15" value="&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;web UI&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-16" value="Grafana" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="425" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-17" value="API客户端" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="471" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-23" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="155" y="380" width="82" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-20" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-23">
+          <mxGeometry width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-21" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-23">
+          <mxGeometry x="3" y="3" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-22" value="&lt;div&gt;&lt;b&gt;Jobs/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;exporters&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-23">
+          <mxGeometry x="7" y="6" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="180" width="82" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-25" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
+          <mxGeometry width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-26" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
+          <mxGeometry x="3" y="3" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I6KHFlvKt-9jvYjdkDqK-27" value="&lt;div&gt;Jobs/&lt;/div&gt;&lt;div&gt;exporters&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=1" vertex="1" parent="I6KHFlvKt-9jvYjdkDqK-24">
+          <mxGeometry x="7" y="6" width="75" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
