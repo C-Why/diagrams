@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T06:05:01.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="U3jtTqCEFKXMNOTZ2mT_" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T06:09:19.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="_H335HHZpVpew0ddHBFl" version="22.1.11" type="github">
   <diagram name="第 1 页" id="x2SoXymloEqKyPD_Y4rw">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,19 +55,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RxqqW9vf8jTpbXpibjCa-51" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="230" y="130" width="100" height="60" as="geometry" />
+          <mxGeometry x="230" y="120" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RxqqW9vf8jTpbXpibjCa-22" value="&lt;div&gt;容器 Nginx&lt;/div&gt;&lt;div&gt;10.233.0.88&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0A30A;fontColor=#000000;strokeColor=none;fillStyle=auto;glass=0;shadow=1;" vertex="1" parent="RxqqW9vf8jTpbXpibjCa-51">
-          <mxGeometry width="100" height="60" as="geometry" />
+        <mxCell id="RxqqW9vf8jTpbXpibjCa-22" value="&lt;div&gt;容器 Nginx&lt;/div&gt;&lt;div&gt;ip: 10.233.0.88&lt;/div&gt;&lt;div&gt;端口: 80\443&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0A30A;fontColor=#000000;strokeColor=none;fillStyle=auto;glass=0;shadow=1;" vertex="1" parent="RxqqW9vf8jTpbXpibjCa-51">
+          <mxGeometry width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RxqqW9vf8jTpbXpibjCa-37" value="veth&amp;lt;id&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="RxqqW9vf8jTpbXpibjCa-51">
-          <mxGeometry x="25" y="40" width="50" height="20" as="geometry" />
+          <mxGeometry x="25" y="46.66666666666667" width="50" height="23.333333333333336" as="geometry" />
         </mxCell>
         <mxCell id="RxqqW9vf8jTpbXpibjCa-52" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="355" y="130" width="100" height="60" as="geometry" />
+          <mxGeometry x="355" y="120" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RxqqW9vf8jTpbXpibjCa-36" value="&lt;div&gt;其他容器 ...&lt;/div&gt;&lt;div&gt;10.233.0.&amp;lt;...&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#91C8FF;fontColor=#000000;strokeColor=none;fillStyle=auto;glass=0;shadow=1;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="RxqqW9vf8jTpbXpibjCa-52">
-          <mxGeometry width="100" height="60" as="geometry" />
+        <mxCell id="RxqqW9vf8jTpbXpibjCa-36" value="&lt;div&gt;其他容器 ...&lt;/div&gt;&lt;div&gt;ip: 10.233.0.&amp;lt;...&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#91C8FF;fontColor=#000000;strokeColor=none;fillStyle=auto;glass=0;shadow=1;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="RxqqW9vf8jTpbXpibjCa-52">
+          <mxGeometry width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RxqqW9vf8jTpbXpibjCa-41" value="veth&amp;lt;id&amp;gt;、..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="RxqqW9vf8jTpbXpibjCa-52">
           <mxGeometry x="14" y="40" width="76" height="20" as="geometry" />
